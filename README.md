@@ -3,7 +3,7 @@
 Mobile Version Portfolio!
 
 > Description the project.
-> In this project I created My Mobile Portfolio Version.I have used CSS Grid and Flexbox to create the contact form.
+> In this project I created My first desktop version .I have used CSS Grid and Flexbox to create the contact form.
 
 ## Built With
 
