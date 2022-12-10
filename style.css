@@ -523,44 +523,44 @@ form > input {
 }
 
 @media only screen and (min-width: 768px) {
-  header {
+header {
     width: 100%;
     height: auto;
     margin-bottom: 0;
     top: 0;
   }
 
-  .headline-section {
+.headline-section {
     display: grid;
     grid-template-columns: auto auto;
     border: 1px solid red;
   }
 
-  body {
+body {
     background-color: white;
   }
 
-  .desktop-menu {
+.desktop-menu {
     display: flex;
     text-align: center;
   }
 
-  #hello {
+#hello {
     display: grid;
     grid-template-columns: 50% 50%;
   }
 
-  .menu {
+.menu {
     display: none;
     visibility: hidden;
   }
 
-  .icon {
+.icon {
     display: none;
     visibility: hidden;
   }
 
-  .geo-image {
+.geo-image {
     height: 877px;
     width: 702px;
     left: 738px;
@@ -568,16 +568,16 @@ form > input {
     border-radius: 0px;
   }
 
-  .desktopmenu ul {
+.desktopmenu ul {
     display: flex;
     list-style: none;
   }
 
-  .desktopmenu li {
+.desktopmenu li {
     margin: 20px 50px;
     font-size: 16px;
     align-items: center;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -586,22 +586,20 @@ form > input {
     color: #1a2236;
   }
 
-  #dot-image {
+#dot-image {
     width: 175px;
     height: 175px;
     left: 563px;
-    /* top: 802px; */
     margin-top: 250px;
     margin-left: 290px;
   }
 
-  .my-name {
+.my-name {
     height: 220px;
     width: 484px;
     left: 160px;
-    /* top: 292px; */
     border-radius: nullpx;
-    font-family: Playfair Display;
+    font-family: "Playfair Display", sans-serif;
     font-size: 110px;
     font-weight: 400;
     line-height: 110px;
@@ -610,13 +608,12 @@ form > input {
     margin-top: 192px;
   }
 
-  .detail {
+.detail {
     height: 84px;
     width: 484px;
     left: 160px;
-    /* top: 572px; */
     border-radius: nullpx;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -624,7 +621,6 @@ form > input {
     text-align: left;
     margin-top: 60px;
   }
-}
 
 .work {
   display: none;
@@ -644,10 +640,7 @@ form > input {
   grid-template-columns: auto;
   width: 1300px;
   height: 1643px;
-  /* left: 0px; */
   top: 1187px;
-  margin-right: -450px;
-  /* margin-left: 0px; */
 }
 
 .about-me {
@@ -660,7 +653,6 @@ form > input {
   width: 1120px;
   height: 586px;
   left: 160px;
-  /* top: 3046px; */
 }
 
 .form-section {
@@ -688,7 +680,7 @@ form > input {
   height: 110px;
   left: 834px;
   top: 3074px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 110px;
@@ -703,7 +695,7 @@ form > input {
   height: 84px;
   left: 834px;
   top: 3214px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -762,13 +754,28 @@ form > input {
 .form-section h1 {
   text-align: center;
   margin-top: 168px;
-  font-family: Playfair Display;
+  font-family: Playfair Display sans-serif;
   font-size: 110px;
   font-weight: 400;
   line-height: 110px;
   letter-spacing: 0em;
   padding: 0px;
-  /* margin-bottom: 40px; */
+}
+.form-section h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .form-section p {
@@ -830,7 +837,6 @@ textarea {
 .socialicons {
   margin-top: 50px;
   margin-right: 70px;
-  /* margin-bottom: 300px; */
 }
 
 .socialicons input {
