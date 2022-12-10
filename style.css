@@ -725,8 +725,7 @@ form > input {
     display: flex;
     flex-direction: column;
     background-color: #f9f9fa;
-    background-image:
-      url(./images/image-geometry_6.svg),
+    background-image: url(./images/image-geometry_6.svg),
       url(./images/image-geometry_7.svg);
     background-position: left top, right bottom;
     top: 3782px;
