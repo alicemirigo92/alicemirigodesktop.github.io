@@ -533,7 +533,6 @@ form > input {
   .headline-section {
     display: grid;
     grid-template-columns: auto auto;
-    border: 1px solid red;
   }
 
   body {
@@ -562,7 +561,7 @@ form > input {
 
   .geo-image {
     height: 877px;
-    width: 702px;
+    width: 60%;
     left: 738px;
     top: 100px;
     border-radius: 0;
@@ -571,6 +570,13 @@ form > input {
   .desktopmenu ul {
     display: flex;
     list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: 110px;
   }
 
   .desktopmenu li {
@@ -583,14 +589,19 @@ form > input {
     line-height: 24px;
     text-align: right;
     color: #1a2236;
+    word-spacing: 1px;
   }
 
   #dot-image {
-    width: 175px;
+    width: 100%;
     height: 175px;
     left: 563px;
-    margin-top: 250px;
-    margin-left: 290px;
+    margin-top: 40px;
+    margin-left: 240px;
+  }
+
+  .info-area {
+    padding-left: 18px;
   }
 
   .my-name {
@@ -604,7 +615,7 @@ form > input {
     line-height: 110px;
     letter-spacing: 0;
     text-align: left;
-    margin-top: 192px;
+    margin-top: 150px;
   }
 
   .detail {
@@ -627,11 +638,14 @@ form > input {
   }
 
   .head-button {
-    width: 254px;
+    width: 29%;
     height: 70px;
     left: 160px;
     background-color: #1a2236;
     border-radius: 0;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
   }
 
   .worksection {
@@ -639,7 +653,8 @@ form > input {
     grid-template-columns: auto;
     width: 1300px;
     height: 1643px;
-    top: 1187px;
+    top: 1000px;
+    margin-top: 200px;
   }
 
   .about-me {
@@ -652,7 +667,6 @@ form > input {
     height: 586px;
     left: 160px;
     padding: 0;
-    border: 1px solid black;
     margin-top: 70px;
   }
 
@@ -725,17 +739,14 @@ form > input {
     display: flex;
     flex-direction: column;
     background-color: #f9f9fa;
-    background-image:
-      url(./images/image-geometry_6.svg),
+    background-image: url(./images/image-geometry_6.svg),
       url(./images/image-geometry_7.svg);
     background-position: left top, right bottom;
     top: 3782px;
-    border: 1px solid black;
     margin-top: 850px;
     justify-content: center;
-    width: 1440px;
-    margin-right: -400px;
-    height: fit-content;
+    width: 100%;
+    height: 950px;
     padding-left: 100px;
     align-items: center;
   }
@@ -807,8 +818,7 @@ form > input {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    width: 1440px;
-    margin-right: -400px;
+    width: 100%;
     height: 123px;
     left: 0;
     top: 4729px;
@@ -816,7 +826,7 @@ form > input {
   }
 
   #getcv {
-    width: 290px;
+    width: 289px;
     margin-left: 70px;
     margin-top: 22px;
   }
