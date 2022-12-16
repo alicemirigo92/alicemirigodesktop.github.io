@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Mobile Version Portfolio!
+Portfolio Desktop Version!
 
 > Description the project.
 > In this project I created My first desktop version.
@@ -32,8 +32,7 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 
 Alice Gathoni
-Alwyn Androvelle
-Dilsher Balouch
+Bright Chibuzor Ezeamaka
 
 Feel free to check the [issues page](../../issues/).
 
