@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Mobile Version Portfolio!
+Desktop Deployment!
 
 > Description the project.
-> In this project I created My Mobile Portfolio Version.I have used CSS Grid and Flexbox to create the contact form.
+> In this project i  have made my desktop version available to te serve.
 
 ## Built With
 
@@ -32,8 +32,6 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 
 Alice Gathoni
-Alwyn Androvelle
-Dilsher Balouch
 
 Feel free to check the [issues page](../../issues/).
 
