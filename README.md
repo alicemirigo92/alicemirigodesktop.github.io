@@ -3,7 +3,7 @@
 Desktop Deployment!
 
 > Description the project.
-> In this project i  have made my desktop version available to te serve.
+> In this project i have made my desktop version available to te serve.
 
 ## Built With
 
@@ -15,6 +15,11 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 ### Setup
+
+Getting Started
+Cloning the project
+Git clone https://github.com/alicemirigo92/alicemirigodesktop.github.io.git
+To get a local copy up and running follow these simple example steps.
 
 ### Install
 
@@ -32,6 +37,11 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 
 Alice Gathoni
+
+Live Demo
+Add a link to your deployed project.
+
+Live Demo https://alicemirigo92.github.io/alicemirigodesktop.github.io/
 
 Feel free to check the [issues page](../../issues/).
 
