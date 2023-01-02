@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -8,9 +8,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   height: 100%;
   width: 100%;
+  background-color: pink;
 }
 
 header {
@@ -25,20 +26,22 @@ header {
 .headline {
   height: 74px;
   width: 100%;
+  display: flex;
+  float: right;
+  background-color: #e2505c;
 }
 
 .icon {
-  position: absolute;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 24px;
   height: 74px;
   left: 0;
   top: 0;
   background-image: url("./images/image1.png");
 }
 
+
 .menu {
-  position: absolute;
   background-repeat: no-repeat;
   width: 100%;
   height: 14px;
@@ -842,4 +845,95 @@ form > input {
     padding: 0;
     margin: 0;
   }
+} */
+
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  background-image: url(./images/image1.png);
+  background-repeat: no-repeat;
+  height: 74px;
+}
+
+.headline-section {
+  width: 100%;
+}
+
+.my-name {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.detail {
+  width: 90%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  background-color: red;
+  letter-spacing: -0.01em;
+
+}
+
+.head-button {
+  background-color: #1A2236;
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 288px;
+  height: 50px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.work {
+  margin-top: 20px;
+}
+.geometry {
+  width: 100%;
+}
+
+.work h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.project {
+  background-color: #1A2236;
+  height: 156px;
+}
+
+.project p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-style: normal;
+  font-weight: 300;
+  padding-left: 19px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.language {
+  padding-left: 10px;
+}
+
+.language li {
+  display: inline;
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+  background-color: #98DEDE;
+
 }
