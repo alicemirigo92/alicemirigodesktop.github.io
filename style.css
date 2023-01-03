@@ -1288,6 +1288,7 @@ form > input {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
+  display: none;
 }
 
 .menuhref {
