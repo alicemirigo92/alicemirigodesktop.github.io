@@ -1,0 +1,47 @@
+
+.modalbox {
+  height: auto;
+  padding: 3%;
+  width: 75vw;
+  margin: 5% auto;
+}
+
+.modal-links {
+ display: inline-block;
+  gap: 10px;
+}
+
+
+.modalbox p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px; 
+}
+
+.modalbox button:hover {
+  background-color: #1a2236;
+  color: white;
+}
+
+
+.live-btn {
+  width : 246px;
+height: 51px;
+left: 37px;
+top: 827px;
+border: 1px solid #1A2236;
+}
+
+.source-btn {
+  width: 246px;
+height: 51px;
+left: 37px;
+top: 827px;
+background-image: url(./images/ic_github.svg);
+background-repeat: no-repeat;
+background-position: right;
+border: 1px solid #1A2236;
+color: black;
+}
