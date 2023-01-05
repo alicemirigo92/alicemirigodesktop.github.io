@@ -1,14 +1,19 @@
 
 .modalbox {
+  display: flexbox;
+  align-items: center;
   height: auto;
   padding: 3%;
-  width: 75vw;
   margin: 5% auto;
+ /* background-color: #1A2236;
+  backdrop-filter: blur(12px); */
+  border: 1px solid red;
 }
 
 .modal-links {
  display: inline-block;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -18,6 +23,24 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 27px; 
+  margin-bottom: 10px; 
+}
+
+.modal-text {
+  text-align: center;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #1A2236;
+}
+
+.modalimage{
+  width: 1179px;
+  height: 857.32pxpx;
+  left: 20.25px;
+  top: 134px;
 }
 
 .modalbox button:hover {
@@ -29,19 +52,32 @@
 .live-btn {
   width : 246px;
 height: 51px;
-left: 37px;
-top: 827px;
 border: 1px solid #1A2236;
+gap: 10px;
+}
+
+.modal-btn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
 }
 
 .source-btn {
   width: 246px;
 height: 51px;
-left: 37px;
-top: 827px;
 background-image: url(./images/ic_github.svg);
 background-repeat: no-repeat;
 background-position: right;
 border: 1px solid #1A2236;
 color: black;
+}
+
+#cross {
+  display: flex;
+  align-self: flex-end;
+  width: 20px;
+height: 20px;
+margin-left: 1000px;
+/* margin-bottom: 10px; */
 }
