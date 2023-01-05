@@ -116,7 +116,16 @@
     top: -7%;
     left: 2%;
   }
- 
+  
+  .modalimage {
+    background-image: url(./images/Group\ 109.svg);
+    background-size: 100%;
+    background-position: 3% 5%;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 27vh;
+  }
+
   .modal-links {
     display: inline-block;
     gap: 10px;
@@ -130,6 +139,7 @@
     margin-bottom: 10px;
   }
  
+
   .modal-text {
     font-style: normal;
     font-weight: 400;
