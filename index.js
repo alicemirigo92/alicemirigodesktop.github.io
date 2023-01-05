@@ -54,7 +54,7 @@ const projects = {
     source: '#',
   },
 };
- 
+
 const btns = document.querySelectorAll('.btn');
 btns.forEach((b) => {
   b.addEventListener('click', () => {
@@ -62,7 +62,7 @@ btns.forEach((b) => {
     const div = document.createElement('div');
     div.className = 'popup';
     div.innerHTML = `<div class="modalbox">
-<img id="cross" src="./images/ic_cross.svg" alt="ic_cross">
+        <img id="cross" src="./images/ic_cross.svg" alt="ic_cross">
         <p>${projects[b.id].title}</p>
           <button class="modal-links" >${projects[b.id].stack[0]}</button>
           <button class="modal-links" >${projects[b.id].stack[1]}</button>
@@ -79,7 +79,7 @@ btns.forEach((b) => {
 </div>
     </div>`;
     parent.append(div);
- 
+
     document.getElementById('cross').addEventListener('click', () => {
       parent.removeChild(div);
     });

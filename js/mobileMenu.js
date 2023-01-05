@@ -22,4 +22,3 @@ for (let i = 0; i < menuOptions.length; i += 1) {
 
 hamburger.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
-
