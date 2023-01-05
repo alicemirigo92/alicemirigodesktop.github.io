@@ -1,83 +1,178 @@
-
-.modalbox {
-  display: flexbox;
-  align-items: center;
-  height: auto;
-  padding: 3%;
-  margin: 5% auto;
- /* background-color: #1A2236;
-  backdrop-filter: blur(12px); */
-  border: 1px solid red;
+@media (max-width: 768px) {
+  .popup {
+    z-index: 100;
+    position: fixed;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+  }
+ 
+  .modalbox {
+    display: flexbox;
+    position: relative;
+    align-items: center;
+    padding: 3%;
+    margin: 5% auto;
+  }
+ 
+  .modal-links {
+    display: inline-block;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+ 
+  .modalbox p {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+ 
+  .modal-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+  }
+ 
+  .modalimage {
+    background-image: url(./images/Group\ 109.svg);
+    background-size: 100%;
+    background-position: 3% 5%;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 27vh;
+  }
+ 
+  .modalbox button:hover {
+    background-color: #1a2236;
+    color: white;
+  }
+ 
+  .live-btn {
+    width: 246px;
+    height: 51px;
+    border: 1px solid #1a2236;
+    gap: 10px;
+  }
+ 
+  .modal-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+ 
+  .source-btn {
+    width: 246px;
+    height: 51px;
+    background-image: url(./images/ic_github.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px solid #1a2236;
+    color: black;
+  }
+ 
+  #cross {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+  }
+ 
+  #arrow {
+    width: 20px;
+    height: 20px;
+  }
 }
-
-.modal-links {
- display: inline-block;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-
-.modalbox p {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px; 
-  margin-bottom: 10px; 
-}
-
-.modal-text {
-  text-align: center;
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: #1A2236;
-}
-
-.modalimage{
-  width: 1179px;
-  height: 857.32pxpx;
-  left: 20.25px;
-  top: 134px;
-}
-
-.modalbox button:hover {
-  background-color: #1a2236;
-  color: white;
-}
-
-
-.live-btn {
-  width : 246px;
-height: 51px;
-border: 1px solid #1A2236;
-gap: 10px;
-}
-
-.modal-btn{
-display: flex;
-flex-direction: row;
-justify-content: center;
-gap: 20px;
-}
-
-.source-btn {
-  width: 246px;
-height: 51px;
-background-image: url(./images/ic_github.svg);
-background-repeat: no-repeat;
-background-position: right;
-border: 1px solid #1A2236;
-color: black;
-}
-
-#cross {
-  display: flex;
-  align-self: flex-end;
-  width: 20px;
-height: 20px;
-margin-left: 1000px;
-/* margin-bottom: 10px; */
+ 
+@media (min-width: 768px) {
+  .popup {
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a2236f2;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+ 
+  .modalbox {
+    display: flexbox;
+    align-items: center;
+    padding: 3%;
+    margin: 5% auto;
+    position: absolute;
+    background-color: #fff;
+    width: 89vw;
+    height: 100vh;
+    top: -7%;
+    left: 2%;
+  }
+ 
+  .modal-links {
+    display: inline-block;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+ 
+  .modalbox p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+ 
+  .modal-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+  }
+ 
+  .modalbox button:hover {
+    background-color: #1a2236;
+    color: white;
+  }
+ 
+  .live-btn {
+    width: 246px;
+    height: 51px;
+    border: 1px solid #1a2236;
+    gap: 10px;
+  }
+ 
+  .modal-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+ 
+  .source-btn {
+    width: 246px;
+    height: 51px;
+    background-image: url(./images/ic_github.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px solid #1a2236;
+    color: black;
+  }
+ 
+  #cross {
+    position: absolute;
+    align-self: flex-end;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+  }
 }
