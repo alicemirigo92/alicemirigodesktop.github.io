@@ -196,7 +196,6 @@
   .prev-nxt-btns-cont {
     display: flex;
     justify-content: space-between;
-    background-color: indigo;
     margin-top: 10%;
   }
 }
