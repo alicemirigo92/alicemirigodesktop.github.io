@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .popup {
     z-index: 100;
-    position: fixed;
+    /* position: fixed; */
     background-color: #fff;
     width: 100vw;
     height: 100vh;
@@ -96,7 +96,7 @@
 @media (min-width: 768px) {
   .popup {
     z-index: 100;
-    position: fixed;
+    /* position: fixed; */
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -191,5 +191,12 @@
     right: 20px;
     width: 20px;
     height: 20px;
+  }
+
+  .prev-nxt-btns-cont {
+    display: flex;
+    justify-content: space-between;
+    background-color: indigo;
+    margin-top: 10%;
   }
 }

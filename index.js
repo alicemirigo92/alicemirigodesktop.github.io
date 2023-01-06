@@ -69,14 +69,18 @@ btns.forEach((b) => {
           <button class="modal-links" >${projects[b.id].stack[2]}</button>
        <div class="modalimage"></div>
         <p class="modal-text">${projects[b.id].description}</p>
-<div class="modal-btn">
-          <button type="button" onclick="location.href='${projects[b.id].live}';" class="live-btn">
-            See Live
-             <img id="arrow" src="./images/Union.svg" alt="arrow">
-          </button>
-          <button type="button" onclick="location.href='${projects[b.id].source}';" class="source-btn">See Source
-          </button>
-</div>
+      <div class="modal-btn">
+                <button type="button" onclick="location.href='${projects[b.id].live}';" class="live-btn">
+                  See Live
+                  <img id="arrow" src="./images/Union.svg" alt="arrow">
+                </button>
+                <button type="button" onclick="location.href='${projects[b.id].source}';" class="source-btn">See Source
+                </button>
+      </div>
+      <div class="prev-nxt-btns-cont">
+        <img src="./images//prevProject.svg" alt="">
+        <img src="./images//nxtProject.svg" alt="">
+      </div>
     </div>`;
     parent.append(div);
 
