@@ -6,7 +6,7 @@ function validate() {
 
   document.forms[0].onsubmit = function submitForm(e) {
     if (emailInputValue.match(emailTest)) {
-      document.getElementById('emailMsg').innerHTML = 'Hurray';
+      document.getElementById('emailMsg').innerHTML = 'Hurray this is my first portfolio.Alice';
       document.getElementById('emailMsg').style.visibility = 'visible';
       document.getElementById('emailMsg').style.color = 'yellow';
       form.submit();
