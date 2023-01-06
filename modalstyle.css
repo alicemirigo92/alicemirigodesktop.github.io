@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .popup {
     z-index: 100;
-    /* position: fixed; */
+    position: fixed;
     background-color: #fff;
     width: 100vw;
     height: 100vh;
@@ -63,8 +63,10 @@
 
   .modal-btn {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
     gap: 20px;
   }
 
@@ -90,6 +92,10 @@
   #arrow {
     width: 20px;
     height: 20px;
+  }
+
+  .prev-nxt-btns-cont {
+    display: none;
   }
 }
 
