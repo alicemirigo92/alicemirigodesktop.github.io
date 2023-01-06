@@ -3,8 +3,8 @@
     z-index: 100;
     position: fixed;
     background-color: #fff;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow-y: auto;
     top: 0;
     left: 0;
@@ -48,17 +48,30 @@
     width: 90vw;
     height: 27vh;
   }
-/*  
-  .modalbox button:hover {
-    background-color: #1a2236;
-    color: white;
-  } */
- 
+
   .live-btn {
     width: 246px;
     height: 51px;
     border: 1px solid #1a2236;
     gap: 10px;
+  }
+
+  .live-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .live-btn p {
+    background-image: url(./images/blackExport.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 80%;
+    margin-right: 10px;
+  }
+
+  .live-btn p:hover {
+    background-image: url(./images/whiteExport.png);
+    color: #fff;
   }
 
   .modal-btn {
@@ -73,10 +86,17 @@
   .source-btn {
     width: 246px;
     height: 51px;
+    background-image: url(./images/blackGit.svg);
     background-repeat: no-repeat;
     background-position: right;
     border: 1px solid #1a2236;
     color: black;
+  }
+
+  .source-btn:hover {
+    background-image: url(./images/ic_github.svg);
+    background-color: #000;
+    color: #fff;
   }
 
   #cross {
@@ -88,11 +108,6 @@
     cursor: pointer;
   }
 
-  #arrow {
-    width: 20px;
-    height: 20px;
-  }
-
   .prev-nxt-btns-cont {
     display: none;
   }
@@ -101,9 +116,9 @@
 @media (min-width: 768px) {
   .popup {
     z-index: 100;
-    /* position: fixed; */
-    width: 100vw;
-    height: 100vh;
+    position: fixed;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,12 +173,7 @@
     margin-top: 40px;
     width: 70%;
   }
-/*  
-  .modalbox button:hover {
-    background-color: #1a2236;
-    color: white;
-  }
-  */
+
   .live-btn {
     width: 130px;
     height: 51px;
@@ -207,11 +217,11 @@
     color: #fff;
   }
 
-  .live-btn p:hover{
+  .live-btn p:hover {
     background-image: url(./images/whiteExport.png);
     color: #fff;
   }
- 
+
   #cross {
     position: absolute;
     align-self: flex-end;
