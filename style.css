@@ -65,6 +65,7 @@
   .project {
     background-color: #1a2236;
     height: 156px;
+    position: relative;
   }
 
   .project p {
@@ -122,8 +123,6 @@
     font-weight: 400;
     font-size: 50px;
     color: #1a2236;
-
-    /* margin-top: 10px; */
   }
 
   .about-me p {
@@ -364,14 +363,6 @@
     overflow: hidden;
   }
 
-  #arrow {
-    float: right;
-    margin-left: 170px;
-    color: #92dcdc;
-    padding-top: 0;
-    align-items: center;
-  }
-
   #cv {
     height: 24px;
     width: 100%;
@@ -467,6 +458,7 @@
     height: auto;
     margin-bottom: 0;
     top: 0;
+    padding: 20px;
   }
 
   body {
@@ -829,8 +821,6 @@
     margin-top: 150px;
     justify-content: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 950px;
     padding-left: 100px;
     align-items: center;
   }
@@ -917,7 +907,7 @@
 
   .socialicons {
     margin-top: 50px;
-    margin-right: 70px;
+    margin-right: 90px;
   }
 
   .socialicons input {
