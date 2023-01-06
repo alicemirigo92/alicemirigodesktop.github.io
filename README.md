@@ -1,16 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Desktop Deployment!
+JAVASCRIPT AND DOM MANIPULATION!
 
 > Description the project.
-> In this project i have made my desktop version available to te serve.
+> In this project i used javascript to be able to manupulate html using javascript
 
 ## Built With
 
-Html and CSS
-CSS Grid and Flexbox
-Use of UI and UX
-To get a local copy up and running follow these simple example steps.
+Use basic JavaScript syntax.
+Use JavaScript to manipulate DOM elements.
+Use JavaScript events.
 
 ### Prerequisites
 
