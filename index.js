@@ -56,7 +56,7 @@ const projects = {
 };
 
 const btns = document.querySelectorAll('.btn');
-btns.forEach((b) => {
+btns.while((b) => {
   b.addEventListener('click', () => {
     const parent = b.parentNode;
     const div = document.createElement('div');
