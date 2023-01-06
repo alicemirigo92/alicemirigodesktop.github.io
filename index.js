@@ -70,11 +70,10 @@ btns.forEach((b) => {
        <div class="modalimage"></div>
         <p class="modal-text">${projects[b.id].description}</p>
       <div class="modal-btn">
-                <button type="button" onclick="location.href='${projects[b.id].live}';" class="live-btn">
-                  See Live
-                  <img id="arrow" src="./images/Union.svg" alt="arrow">
+                <button type="button" onclick="location.href='${projects[b.id].live}';" class="live-btn link-btn">
+                  <p>See live</p>
                 </button>
-                <button type="button" onclick="location.href='${projects[b.id].source}';" class="source-btn">See Source
+                <button type="button" onclick="location.href='${projects[b.id].source}';" class="source-btn link-btn">See Source
                 </button>
       </div>
       <div class="prev-nxt-btns-cont">

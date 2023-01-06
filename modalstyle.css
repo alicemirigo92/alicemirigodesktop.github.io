@@ -48,12 +48,12 @@
     width: 90vw;
     height: 27vh;
   }
-
+/*  
   .modalbox button:hover {
     background-color: #1a2236;
     color: white;
-  }
-
+  } */
+ 
   .live-btn {
     width: 246px;
     height: 51px;
@@ -73,7 +73,6 @@
   .source-btn {
     width: 246px;
     height: 51px;
-    background-image: url(./images/ic_github.svg);
     background-repeat: no-repeat;
     background-position: right;
     border: 1px solid #1a2236;
@@ -159,17 +158,24 @@
     margin-top: 40px;
     width: 70%;
   }
-
+/*  
   .modalbox button:hover {
     background-color: #1a2236;
     color: white;
   }
-
+  */
   .live-btn {
-    width: 246px;
+    width: 130px;
     height: 51px;
     border: 1px solid #1a2236;
-    gap: 10px;
+  }
+
+  .live-btn p {
+    background-image: url(./images/blackExport.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 80%;
+    margin-right: 10px;
   }
 
   .modal-btn {
@@ -181,15 +187,31 @@
   }
 
   .source-btn {
-    width: 246px;
+    width: 130px;
     height: 51px;
-    background-image: url(./images/ic_github.svg);
+    background-image: url(./images/blackGit.svg);
     background-repeat: no-repeat;
     background-position: right;
     border: 1px solid #1a2236;
     color: black;
   }
 
+  .source-btn:hover {
+    background-image: url(./images/ic_github.svg);
+    background-color: #000;
+    color: #fff;
+  }
+
+  .live-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .live-btn p:hover{
+    background-image: url(./images/whiteExport.png);
+    color: #fff;
+  }
+ 
   #cross {
     position: absolute;
     align-self: flex-end;
