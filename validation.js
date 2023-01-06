@@ -6,14 +6,14 @@ function validate() {
 
   document.forms[0].onsubmit = function submitForm(e) {
     if (emailInputValue.match(emailTest)) {
-      document.getElementById('emailError').innerHTML = 'Hurray';
-      document.getElementById('emailError').style.visibility = 'visible';
-      document.getElementById('emailError').style.color = 'blue';
+      document.getElementById('emailMsg').innerHTML = 'Hurray';
+      document.getElementById('emailMsg').style.visibility = 'visible';
+      document.getElementById('emailMsg').style.color = 'yellow';
       form.submit();
     } else {
-      document.getElementById('emailError').innerHTML = 'Emails are case sensitive! please enter the email in lowercase';
-      document.getElementById('emailError').style.visibility = 'visible';
-      document.getElementById('emailError').style.color = 'red';
+      document.getElementById('emailMsg').innerHTML = 'Emails are case sensitive! please enter the email in lowercase';
+      document.getElementById('emailMsg').style.visibility = 'visible';
+      document.getElementById('emailMsg').style.color = 'red';
       e.preventDefault();
     }
   };
